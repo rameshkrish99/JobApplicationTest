@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Apply application and verify it is displayed in user view application page]">
+  <listeners>
+    <listener class-name="oniesoft.api.reporting.TestStatusListener"/>
+  </listeners>
+  <test thread-count="5" name="org.xyz.tests.ViewApplicationTest.userApplyApplicationAndVerifyInViewApplicationPage(failed)">
+    <parameter name="strParams" value=""/>
+    <classes>
+      <class name="org.xyz.tests.ViewApplicationTest">
+        <methods>
+          <include name="init"/>
+          <include name="userApplyApplicationAndVerifyInViewApplicationPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.xyz.tests.ViewApplicationTest -->
+    </classes>
+  </test> <!-- org.xyz.tests.ViewApplicationTest.userApplyApplicationAndVerifyInViewApplicationPage(failed) -->
+</suite> <!-- Failed suite [Apply application and verify it is displayed in user view application page] -->

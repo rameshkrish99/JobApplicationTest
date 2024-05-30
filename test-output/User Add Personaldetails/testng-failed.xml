@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [User Add Personaldetails]">
+  <listeners>
+    <listener class-name="oniesoft.api.reporting.TestStatusListener"/>
+  </listeners>
+  <test thread-count="5" name="org.xyz.tests.PersonalDetailsTest.userAddPersonalDetails(failed)">
+    <parameter name="strParams" value=""/>
+    <classes>
+      <class name="org.xyz.tests.PersonalDetailsTest">
+        <methods>
+          <include name="init"/>
+          <include name="userAddPersonalDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.xyz.tests.PersonalDetailsTest -->
+    </classes>
+  </test> <!-- org.xyz.tests.PersonalDetailsTest.userAddPersonalDetails(failed) -->
+</suite> <!-- Failed suite [User Add Personaldetails] -->

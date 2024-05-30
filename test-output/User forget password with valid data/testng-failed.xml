@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [User forget password with valid data]">
+  <listeners>
+    <listener class-name="oniesoft.api.reporting.TestStatusListener"/>
+  </listeners>
+  <test thread-count="5" name="org.xyz.tests.ForgetPasswordTest.userForgetPasswordTestWithValidDetails(failed)">
+    <parameter name="strParams" value=""/>
+    <classes>
+      <class name="org.xyz.tests.ForgetPasswordTest">
+        <methods>
+          <include name="userForgetPasswordTestWithValidDetails" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.xyz.tests.ForgetPasswordTest -->
+    </classes>
+  </test> <!-- org.xyz.tests.ForgetPasswordTest.userForgetPasswordTestWithValidDetails(failed) -->
+</suite> <!-- Failed suite [User forget password with valid data] -->
